@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>La vida en los océanos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=League+Spartan:wght@100..900&display=swap');
+      @media (min-width:480px)
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      scroll-behavior: smooth;
+       
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 50, 0.85);
+      color: white;
+      text-align: center;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cinzel Decorative;
+
+         
+    }
+footer{
+    height: 150px;
+    text-align: left;
+      background-color: #020d2f;
+    font-family: League Spartan;
+      }
+      
+    .titulo {
+      font-size: 2em; 
+      padding: 20px 0 10px;
+      font-weight: bold;
+    }
+
+    nav {
+      padding: 10px 0;
+     background-color: #020d2f;
+        display: flex;
+   justify-content: center;
+       
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #a0e8ff;
+      font-weight: bold;
+      font-size: 1.1em;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: League Spartan;
+         min-width: 5px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+        
+    }
+     /* main{
+          /*width: 80%;
+         padding: 30px;
+          margin-top: 50px;
+      }*/
+
+    section {
+      /*height: 100vh;*/
+    height: auto;
+    padding: 130px 50px 50px; /* deja espacio para el header y menú */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .nivel-1 {
+      background-color: #a0e8ff;
+      color: #003344;
+    }
+
+    .nivel-2 {
+      background-color: #4db8ff;
+        color: #003344;
+    }
+
+    .nivel-3 {
+      background-color: #0066cc;
+        color: #a0e8ff;
+    }
+
+    .nivel-4 {
+      background-color: #001f4d;
+        color: #a0e8ff;
+
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    font-family: Cinzel Decorative;
+        font-size: 25px;
+    }
+      h5{ 
+          font-family: League Spartan ;
+          font-size: 50px;
+      }
+      p{
+          max-width: 700px;
+          font-family: League Spartan ;
+          font-size: 20px;
+      }
+      .text{
+          text-align: center;
+          max-width: none;
+          font-family: League Spartan ;
+      }   
+      .estilo {
+         
+         /*background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));*/
+  
+      } 
+      
+      ul li{
+          text-decoration: none;
+          list-style-type: none;
+          font-size: 14px;   
+          color: #a0e8ff;
+      }
+      ul{
+          background-color: #020d2f;
+          padding: 20px;
+      }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="titulo">La vida en los océanos</div>
+    <nav>
+      <a href="#nivel-1">SUPERFICIE</a>
+      <a href="#nivel-2">EPIPELÁGICA</a>
+      <a href="#nivel-3">MESOPELÁGICA</a>
+      <a href="#nivel-4">ABISAL</a>
+    </nav>
+  </header>
+<main>
+  <section id="nivel-1" class="nivel-1">
+    <h1>🌞 Superficie del Mar</h1>
+    <p>La superficie del océano es cálida, iluminada y rica en vida. Aquí encontramos algas, peces pequeños y mamíferos marinos como los delfines.</p>
+    <!--botones de redireccion-->
+    <div id="carouselExampleDark" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="10" aria-label="Slide 11"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="11" aria-label="Slide 12"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="12" aria-label="Slide 13"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="13" aria-label="Slide 14"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="14" aria-label="Slide 15"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="15" aria-label="Slide 16"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="16" aria-label="Slide 17"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="17" aria-label="Slide 1"></button>  
+   <!--imagenes y texto del carrusel-->   
+  </div>
+  <div class="carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img  src="..//imagenes/tortuga%20_caguama.jpg"  class="d-block w-100"  alt="...">
+      
+        <div class="carousel-caption d-none d-md-block" >
+        <h5>Tortuga Caguama</h5>
+        <p class="text">Las aletas en forma de paleta de esta tortuga le permiten deslizarse elegantemente por el agua. Estas tortugas marinas pueden permanecer bajo el agua durante varias horas sin tener que salir a la superficie para respirar. Migran miles de kilómetros hasta regresar a sus playas de anidación para desovar.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..//imagenes/pez_ballesta.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Ballesta</h5>
+        <p class="text">Es un pez que vive asociado a los arrecifes en una profundidad de entre 0 y 50 m. Son territoriales y los adultos son tímidos, duermen de lado y emiten un sonido cuando están alarmados.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..//imagenes/tiburon_blanco.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tiburon Blanco</h5>
+        <p class="text">Este tiburón es uno de los más grandes del mundo detrás del tiburón ballena y el tiburón peregrino. Aunque también es capaz de habitar aguas frías, prefiere mares templados y cálidos. A diferencia de la mayoría de los peces, es un animal de sangre caliente, lo que le permite ser un depredador más activo en aguas más frías en comparación con las especies de sangre fría.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/ballena_azul.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ballena Azul</h5>
+        <p class="text">Son capaces de sumergirse hasta 500 metros de profundidad y permanecer bajo el agua casi media hora, algo que consiguen gracias a sus adaptaciones especiales que tienen en sus pulmones.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/ballena_gris.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ballena Gris</h5>
+        <p class="text">Las ballenas grises saltan en el agua no por llamar la atención de su pareja, sino para deshacerse de los balanos. Una especie de parasito que se adhiere a la piel y les causa comezón. Ahora ya sabes por qué es gris.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/ballena_jorobada.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ballena Jorobada</h5>
+        <p class="text"> Pasan el verano en las aguas templadas desde las Islas Aleutianas de Alaska hasta las Islas Farallón frente a la costa de California Central. Durante los meses de invierno más fríos, de noviembre a mayo, la mayoría de las poblaciones del Pacífico Norte se encuentran en las aguas más cálidas de Hawái y México, donde se reproducen, paren y amamantan a sus crías.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/cachalote.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cachalote</h5>
+        <p class="text">Se han descubierto que tienen un sistema de comunicación complejo y variado, utilizando un "alfabeto fonético" con diferentes sonidos según la región y la situación.  Además de emitir sonidos muy fuertes, que pueden llegar a los 235 decibelios, lo que podría ser utilizado para aturdir o incluso matar a sus presas.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/leon_marino.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lobo Marino</h5>
+        <p class="text">No, los lobos marinos no pueden respirar bajo el agua. Sin embargo, pueden retener la respiración durante aproximadamente 8 a 20 minutos. Esto es gracias a sus fosas nasales que se cierran instintivamente cuando se sumergen bajo el agua.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/orca.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Orca</h5>
+        <p class="text">La palabra Orcinus es latina y significa "reino de los muertos". Este nombre también se refiere a la notoria reputación de esta enorme criatura por devorar una gran variedad de animales marinos. Siendo también cazadores en tierra aprovechando el impulso de las olas, las orcas pueden varar para cazar focas y crías de leones marinos.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/narval.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Narval</h5>
+        <p class="text"> También conocidos como unicornios marinos, esto en realidad se debe a que los machos tienen un colmillo largo y espiralado que puede medir hasta 3 metros. Este colmillo no es un cuerno, sino un diente canino modificado que sobresale de su boca. </p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/beluga.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Beluga</h5>
+        <p class="text">Las belugas poseen un desarrollado sentido del oído,  ya que actúa según los estímulos que producen en ellas el eco de los barcos o peces que se encuentran cerca de ellas. Además de tener una serie de vocalizaciones complejas y son capaces de hacer diversas sonidos, incluyendo silbidos, chirridos y campanilleos.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/manati.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Manati</h5>
+        <p class="text">Los manatíes pueden superar los 4 metros de largo y pesar más de una tonelada. Pero, a pesar de ello, tienen un cuerpo aerodinámico, con una cabeza pequeña y redondeada. Sus extremidades anteriores aplanadas y su gran aleta caudal les ayudan a propulsarse en el agua a gran velocidad.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/estrella_peine_roja.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Estrella Peine Roja</h5>
+        <p class="text">Estos equinodermos se alimentan principalmente de presas sésiles o de movimiento lento, incluidos los bivalvos. En lugar de utilizar la vista, detectan presas a partir de olores transmitidos por el agua mediante el uso de receptores que detectan señals químicas. Se encuentran con mayor frecuencia en las zonas submareales del mar Mediterráneo.</p>
+      </div>
+    </div>
+      
+      <div class="carousel-item">
+      <img src="..//imagenes/camaron.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Camarones</h5>
+        <p class="text"> Son excelentes nadadores.Uno de los datos divertidos que quizás no sepas es que estos artrópodos son bastante buenos para nadar, pueden impulsarse hacia atrás rápidamente flexionando los músculos del abdomen y la cola, o nadar hacia adelante más lentamente usando los apéndices en la parte inferior de la cola.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_globo.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez GLobo</h5>
+        <p class="text">Para protegerse de sus depredadores, este pez se infla como un globo tragando agua y enderezando sus espinas. Su boca picuda le permite romper la dura cáscara de moluscos y crustáceos. Generalmente se encuentran en agujeros y grietas de zonas costeras como lagunas, cuevas, naufragios y arrecifes.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/tortuga_laud.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tortuga Laúd</h5>
+        <p class="text">Se caracteriza por su caparazón blando y correoso, en lugar de las placas duras de otras tortugas marinas, y por ser la única especie de tortuga que no tiene escamas.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_gobio.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Gobio</h5>
+        <p class="text">Capacidad de adherirse a superficies y su comportamiento territorial. Algunos gobios cambian de color para mimetizarse con su entorno, y algunos incluso emiten sonidos que pueden ser oídos por humanos.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_cirujano.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Cirujano</h5>
+        <p class="text">A pesar de su apariencia apacible, estos peces poseen un mecanismo de defensa único. En situaciones de peligro, despliegan afiladas espinas venenosas en sus colas y pueden amenazar a los depredadores moviendo sus cuerpos de lado a lado.</p>
+      </div>
+    </div>
+      
+      
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </section>
+
+  <section id="nivel-2" class="nivel-2">
+    <h1>🐠 Zona Epipelágica</h1>
+    <p>En esta zona aún penetra la luz solar. Habitan peces de colores brillantes, tortugas marinas y arrecifes de coral.</p>
+      <!--botones de redireccion-->
+       <div id="carouselExampleDark_2" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="9" aria-label="Slide 10"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="10" aria-label="Slide 1"></button>
+      
+   <!--imagenes y texto del carrusel-->   
+  </div>
+           
+  <div class="carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img  src="..//imagenes/pulpo.jpg" class="d-block w-100"  alt="...">
+      <div class="carousel-caption d-none d-md-block" >
+        <h5>Pulpo Común</h5>
+        <p class="text">Todos los cefalópodos, como estos pulpos, tienen tentáculos con ventosas. El pulpo los utiliza para deslizarse por el fondo del océano, sentir, tocar y capturar a sus presas. Es uno de los animales marinos más inteligentes, con la capacidad de modificar su color y apariencia para camuflarse.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..//imagenes/clavel_mar.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Clavel de Mar</h5>
+        <p class="text">Como muchos tipos de medusas, el clavel de mar tiene largos tentáculos llenos de filamentos urticantes que actúan como mecanismo de defensa y para capturar a sus presas. Los filamentos pueden causar urticaria severa si los humanos entran en contacto con ellos. El 95% de su cuerpo está compuesto por agua y viajan por los mares dejándose llevar por las corrientes.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..//imagenes/calamar.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Calamar</h5>
+        <p class="text">El calamar nada en aguas abiertas, ya sea solo o en bancos, y utiliza sus ocho brazos revestidos de ventosas y dos tentáculos especializados para atrapar a sus presas, que consisten en diversos peces y camarones.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/salpas.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Salpas</h5>
+        <p class="text"> NO SON MEDUSAS, NI PECES. Pertenecen a la familia de los tunicados, taxón caracterizado por tener el cuerpo blando y revestido con una membrana o túnica, posee sifones a través de los cuales realiza todas sus funciones vitales: moverse, expulsar desechos y, por supuesto, nutrirse.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_gupy.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Guppy</h5>
+        <p class="text">Es uno de los peces de acuario más populares debido a su fácil cuidado, reproducción y diversidad de colores. Estos peces son muy pacíficos, tranquilos y sociables, pero hay que tener cuidado con sus acompañantes, ya que suelen morder sus colas.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_anguila.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Anguila</h5>
+        <p class="text"> Los peces del orden Anguiliformes tienen un aspecto alargado, anguiliforme, cabeza pequeña en relación al cuerpo entre ellos las anguilas, morenas, congrios con la particularidad anatómica de no tener aletas pélvicas. con especies marinas y fluviales. Tienen un cuerpo muy largo; suelen tener la piel desnuda sin escamas, y cuando las tienen son del tipo cicloide incrustadas en la piel.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pradera_marina.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Praderas Marinas</h5>
+        <p class="text">Crecen en aguas saladas y salobres (semi-saladas) de todo el mundo, típicamente a lo largo de costas protegidas de suave pendiente. Debido a que dependen de la luz para la fotosíntesis, se encuentran más comúnmente en aguas poco profundas donde los niveles de luz son altos.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_payaso.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Payaso</h5>
+        <p class="text">El pez payaso es conocido por su coloración brillante, que suele ser de un naranja intenso con tres bandas blancas, bordeadas por líneas negras. El Pez Payaso es un animal inquieto, curioso y observador,  es territorial y vive en grupo. La hembra dominante es muy agresiva, tanto con otras rivales que puedan acercarse a la colonia como con el macho reproductor, al que somete.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_arcoiris.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Arcoiris</h5>
+        <p class="text">Son nativos de Oceanía y el sudeste asiático. De naturaleza gregaria, frecuentan una amplia variedad de hábitats de agua dulce, especialmente lagos, ríos y arroyos. Muchas de sus poblaciones residen en Nueva Guinea y el norte de Australia.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/medusa_atolla.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Medusa Atolla</h5>
+        <p class="text"> Cuando se ve amenazada o perturbada, esta medusa emplea una brillante estrategia de supervivencia para defenderse de sus depredadores. Se ilumina con una fascinante luminiscencia azul verdosa, iluminando las aguas circundantes y creando un espectáculo deslumbrante. </p>
+      </div>
+      </div>
+   <!-- -8 imagenes-->
+      <!--botones de redireccion-->   
+      
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </section>
+
+  <section id="nivel-3" class="nivel-3">
+    <h1>🦑 Zona Mesopelágica</h1>
+    <p>La luz comienza a desvanecerse. Aquí viven calamares gigantes, peces linterna y otras criaturas adaptadas a la oscuridad parcial.</p>
+      <!--botones de redireccion-->
+       <div id="carouselExampleDark_3" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="5" aria-label="Slide 1"></button>
+    
+   <!--imagenes y texto del carrusel-->   
+  </div>
+  <div class="carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img  src="..//imagenes/angel_mar.jpg" class="d-block w-100"  alt="...">
+      
+        <div class="carousel-caption d-none d-md-block" >
+        <h5>Angel del Mar</h5>
+        <p class="text">Saca de su cabeza tentáculos que parecen dedos para capturar a su presa. En las aguas poco iluminadas del mar profundo, el cuerpo transparente del ángel de mar le permite esconderse de los depredadores.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..//imagenes/pez_pelicano.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Pelícano</h5>
+        <p class="text">Este extraño pez parecido a una anguila engulle a su presa con su enorme boca. Puede expandir su garganta y estómago para tragar peces y crustáceos grandes. Tienen muchos dientes en la mandíbula y el extremo de la cola brilla a través de la bioluminiscencia.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..//imagenes/calamar_gigante.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Calamar Gigante</h5>
+        <p class="text">El cuerpo de un calamar gigante puede parecer bastante simple: al igual que otros calamares y pulpos, tiene dos ojos, un pico, ocho brazos, dos tentáculos para alimentarse y un embudo. El calamar gigante puede atrapar presas a una distancia de hasta 10 metros (33 pies) disparando sus dos tentáculos alimenticios , rematados con cientos de potentes ventosas de dientes afilados </p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/cerdos_marinos.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cerdos marinos</h5>
+        <p class="text">Son capaces de sumergirse hasta 500 metros de profundidad y permanecer bajo el agua casi media hora, algo que consiguen gracias a sus adaptaciones especiales que tienen en sus pulmones.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pepino_mar.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pepinos de Mar</h5>
+        <p class="text">Animales invertebrados marinos, No tienen esqueleto, pero en su lugar tienen bajo la epidermis elementos esqueléticos que se llaman osículos. </p>
+      </div>
+    </div>      
+      
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </section>
+
+  <section id="nivel-4" class="nivel-4">
+    <h1>🐙 Zona Abisal</h1>
+    <p>La oscuridad es total. Las criaturas aquí tienen adaptaciones extremas: bioluminiscencia, cuerpos blandos y gran resistencia a la presión.</p>
+      
+      <!--botones de redireccion-->
+  <div id="carouselExampleDark_4" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="9" aria-label="Slide 10"></button>
+    <button type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide-to="10" aria-label="Slide 1"></button>
+    
+   <!--imagenes y texto del carrusel-->   
+  </div>
+  <div class="carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img  src="..//imagenes/pez_vibora.jpg" class="d-block w-100"  alt="...">
+      
+        <div class="carousel-caption d-none d-md-block" >
+        <h5>Pez Vibora del Pacifico</h5>
+        <p class="text">Es un pez que migra pero no de costa a costa, más bien de arriba abajo diariamente pero únicamente sube por las noches. Puede brillar incluso con la luz más tenía, tiene una espina bioluminiscente que sobresale justo delante de su aleta dorsal y son capaces de encender y apagar la luz de su espina a voluntad.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..//imagenes/cangrejo_ara%C3%B1a.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cangrejo Araña</h5>
+        <p class="text">Los cangrejos comúnmente conocidos viven entre 10 y 30 años, mientras que los cangrejo araña pueden llegar a vivir hasta 100 años.
+Tienen patas que pueden llegar a medir hasta 3.7 m con pequeñas pilas en ellas. A pesar de su intimidante tamaño no cazar presas activamente, prefieren escarbar el dónde del océano y alimentarse de animales o plantas muertas. También denominados "cangrejos decoradores" esto a qué se les ha observado decorando sus caparazones con anémonas y plantas que les permite poder camuflarse protegiéndolos de otros depredadores.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..//imagenes/anfipodo_cristal.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Anfipodo Cristal</h5>
+        <p class="text">Es un pequeño crustáceo marino conocido por su cuerpo casi transparente, lo que le ayuda a camuflarse en aguas abiertas y evitar a los depredadores. Estos animales pertenecen al orden Amphipoda, y suelen medir solo unos pocos milímetros. Se encuentran en una variedad de hábitats acuáticos, desde aguas superficiales hasta zonas abisales.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/anfipodo_barril.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          <h5>Anfipodo Barril</h5>
+        <p class="text">Su nombre común proviene de su comportamiento único: la hembra excava el interior de un organismo gelatinoso, como una salpa (un tunicado), y utiliza el cuerpo hueco como un “barril” flotante en el que vive, se protege y cría a sus crías.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/ara%C3%B1a_de_mar.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Araña de Mar</h5>
+        <p class="text">Tiene un cuerpo muy pequeño en comparación con sus patas largas y delgadas, lo que le da un aspecto esquelético. Algunas especies miden solo unos milímetros, pero en regiones frías como la Antártida pueden alcanzar tamaños mucho mayores.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/bacalao_negro.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Bacalao Negro</h5>
+        <p class="text"> Ttambién conocido como pez sable, este pez vive a profundidades que van desde los 300 hasta más de 2,700 metros y prefiere las frías y oscuras aguas del fondo marino.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/anemona_pompon.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Anemona Pompón</h5>
+        <p class="text">Las anémonas son animales no plantas,no tienen esqueleto y poseen un neurotoxinas que le ayuda para paralizar depredadores</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/calamar_vampiro.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Calamar Vampiro del infierno</h5>
+        <p class="text">Pertenece a la clase de molusco cefalópodos, tiene 8 brazos, forrado de púas y de piel roja oscura con grandes ojos transparentes aunque en ocasiones se puede ver azules o rojos pero eso es debido al reflejo del mar.
+Cuando se siente amenazado levanta los brazos para exponer sus puras y protegerse de amenazas, expulsa una mucosidad bioluminiscente que asusta a depredadores en la oscuridad de las profundidades.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/calamar_ojos_negros.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Calamar de Ojos Negros</h5>
+        <p class="text">La palabra Orcinus es latina y significa "reino de los muertos". Este nombre también se refiere a la notoria reputación de esta enorme criatura por devorar una gran variedad de animales marinos. Siendo también cazadores en tierra aprovechando el impulso de las olas, las orcas pueden varar para cazar focas y crías de leones marinos.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="..//imagenes/pez_diablo.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pez Diablo</h5>
+        <p class="text"> Es capaz de aguantar hasta 14 horas fuera del agua, este animal tiene hábitos nocturnos por lo cual permanece oculto durante el día. A pesar de su aspecto aterrador es muy dócil pero a la vez territorial por lo cual si otro pez se mete a su hábitat responderá con ferocidad.</p>
+      </div>
+    </div>      
+      
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark_4" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      
+  </section>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+ </main>   
+    <footer>
+            <ul>
+                <li>Elaborado por:</li>
+                <li>Flores Villegas Valeria Alejandra</li>
+                <li>García Enriquez Ariadna</li>
+                <li>García Pastrana Guadalupe</li>
+                <li>Valencia Cruz Ingrid</li>
+                    
+            </ul>
+            
+    </footer>
+</body>
+</html>
