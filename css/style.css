@@ -24,7 +24,7 @@ header {
     }
       
     .titulo {
-      font-size: 50px; 
+      font-size: 2em; 
       padding: 20px 0 10px;
       font-weight: bold;
     }
@@ -238,5 +238,9 @@ header{
 
  #text{
   font-size: 60px;
+ }
+ 
+ section{
+  padding: 50px, 15px, 15px,;
  }
 }
