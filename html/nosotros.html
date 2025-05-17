@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>La vida en los océanos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+ <link rel="stylesheet" href="../css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=League+Spartan:wght@100..900&display=swap');
+      body{
+          background-color:#001f4d;
+      }
+      .conten, .container{
+          display: flex;
+          width: 100%;
+          height: 500px;
+          border-radius: .5rem;
+          /*overflow: hidden;*/
+
+      }      
+      
+      .conten img, .container{
+          width: 0;
+          flex-grow: 1;
+          object-fit: cover;
+          transition: .5s ease;
+          cursor: pointer;
+      }
+      
+      .conten img, .container:hover{
+          width: 70%;
+      }
+      
+     /*prueva*/  
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.texto {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+font-family: League Spartan;    
+}
+      
+/*estilo de icono*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="titulo">La vida en los océanos</div>
+    <nav>
+      <a href="../html/zona_fotica.html">ZONA FÓTICA</a>
+      <a href="../html/zona_crepuscular.html">ZONA CREPUSCULAR</a>
+      <a href="../html/zona_medianoche.html">ZONA DE MEDIANOCHE</a>
+      <a href="../html/zona_abisal.html">ZONA ABISAL</a>
+      <a href="..//index.html">INICIO</a>
+    </nav>
+  </header>
+<main>
+    
+    <section style="color: #ffffff;">
+        <h1 >SOBRE NOSOTROS</h1>
+        <p class="animate__animated animate__fadeInUp animated__fast"> Esta página web fue creada con el objetivo de informar y enseñar, de forma sencilla e interactiva, sobre la increíble vida marina. Aquí podrás aprender sobre animales del océano como tiburones, ballenas, peces y muchos más.</p>
+        <p class="animate__animated animate__fadeInUp animated__fast">El sitio está organizado en secciones que explican el tamaño, la alimentación, la forma en que se reproducen y los peligros que enfrentan estos animales. También incluimos datos curiosos para que te diviertas mientras aprendes. La página tiene colores que te hacen sentir en el fondo del mar, imágenes llamativas y botones fáciles de usar, para que explorarla sea una experiencia divertida y educativa. </p>
+    </section>
+    
+    
+    <section>
+    <div class="conten">     
+        <div class="container">
+  <img src="../imagenes/nosotros/team1.jpeg" alt="Avatar1" class="image">
+  <div class="overlay">
+    <div class="texto">Flores Villegas Valeria Alejandra <p>DISEÑADORA GRAFICA</p><p>Soy estudiante de la carrera de Diseño Grafico en la BUAP. Me encanta la ilustración y la músca. Actualmente estoy cruzando octavo semestre de la carrera.</p><p>CONTACTO: valeria.floresv@alumno.buap.mx</p> </div>
+      
+  </div>
+</div>
+        
+      <div class="container">
+  <img src="../imagenes/nosotros/team2.jpg" alt="Avatar2" class="image">
+  <div class="overlay">
+    <div class="texto">García Enriquez Ariadna <p>DISEÑADORA GRAFICA</p><p>Soy Ary, actualmente me encuentro cursando el noveno semestre de Diseño Gráfico en la BUAP.</p><p>Me gusta mucho escuchar música, tomar fotografías y tener salidas tranquilas en la naturaleza.</p><p>CONTACTO:
+ariadna.garciae01@gmail.com</p>
+      </div>
+  </div>
+</div>  
+        
+      <div class="container">
+  <img src="../imagenes/nosotros/team3.jpg" alt="Avatar3" class="image">
+  <div class="overlay">
+    <div class="texto">García Pastrana Guadalupe <p>DISEÑADORA GRAFICA</p><p>Soy estudiante de diseño gráfico en la BUAP. Actualmente estoy cursando el noveno semestre; me gusta leer, dibujar, pintar y escuchar música.</p><p>CONTACTO: guadalupe52.gg@gmail.com</p> 
+      </div>
+  </div>
+</div>  
+        
+     <div class="container">
+  <img src="../imagenes/nosotros/team4.jpg" alt="Avatar4" class="image">
+  <div class="overlay">
+    <div class="texto">Valencia Cruz Ingrid <p>DISEÑADORA GRAFICA</p><p>Soy Ingrid, estudiante de noveno semestre de la carrera de Diseño Gráfico</p><p>Me gusta leer especialmente la fatansía, dibujar y peliculas de Studio Ghibli.</p> <p>CONTACTO: valenciacruz321@gmail.com</p> 
+      </div>
+  </div>
+</div>      
+  </div>      
+        
+        
+    </section>
+     
+ </main>   
+    <footer>
+        <div style="overflow:hidden;">
+<div class="footerlinks">
+  <a href="../html/nosotros.html" class="ga-bottom">Sobre nosotros</a><br>
+</div>
+<div class="footerlinks">
+  <h2>Zonas del oceano</h2>
+<a href="../html/zona_fotica.html" class="ga-bottom">Zona Fótica</a><br><br>
+  <a href="../html/zona_crepuscular.html" class="ga-bottom">Zona Crepuscular </a><br><br>
+  <a href="../html/zona_medianoche.html" class="ga-bottom">Zona de Medianoche </a><br><br>
+    <a href="../html/zona_abisal.html" class="ga-bottom">Zona Abisal</a>
+</div>
+            
+            <div class="footerlinks">
+  <a> Manual de usuario</a><br>
+ <br><a href="../archivo/Manual%20de%20usuario%20sobre%20la%20p%C3%A1gina%20web.pdf" download > <span class="material-symbols-outlined"> download</span> </a>                
+            </div> 
+ </div>
+    </footer>
+</body>
+</html>

@@ -1,5 +1,3 @@
-
-/*import*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=League+Spartan:wght@100..900&display=swap');
       @media (min-width:480px)
           *{
@@ -11,9 +9,9 @@
       margin: 0;
       font-family: Arial, sans-serif;
       color: white;
-      scroll-behavior: smooth;
-       
-    }
+       background-color: #a0e8ff;
+      
+       }
 
     header {
       position: fixed;
@@ -28,12 +26,6 @@
 
          
     }
-footer{
-    height: 150px;
-    text-align: left;
-      background-color: #020d2f;
-    font-family: League Spartan;
-      }
       
     .titulo {
       font-size: 2em; 
@@ -65,14 +57,10 @@ footer{
       text-decoration: underline;
         
     }
-     /* main{
-          /*width: 80%;
-         padding: 30px;
-          margin-top: 50px;
-      }*/
+    
 
     section {
-      /*height: 100vh;*/
+    
     height: auto;
     padding: 130px 50px 50px; /* deja espacio para el header y menú */
     display: flex;
@@ -83,6 +71,7 @@ footer{
     .nivel-1 {
       background-color: #a0e8ff;
       color: #003344;
+        height: auto;
     }
 
     .nivel-2 {
@@ -115,24 +104,117 @@ footer{
           font-family: League Spartan ;
           font-size: 20px;
       }
-      .text{
-          text-align: center;
+/* estilo de las paginas carrusel y textos*/
+
+.container {
+  position: relative;
+  width: 80%;  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+text-align: center;
           max-width: none;
-          font-family: League Spartan ;
-      }   
-      .estilo {
-         
-         /*background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));*/
-  
-      } 
+          font-family: League Spartan ;    
+}
+
+/*estilo del acordion*/
+    /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #001f4d;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+   height: 80px; 
+    font-family:League Spartan ;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class w ith JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #020d2f;
+    
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #064469;
+  color: #ffffff;
+  display: none;
+  overflow: hidden;
+  height: auto;
+  font-family:League Spartan ;
+
+}  
       
-      ul li{
-          text-decoration: none;
-          list-style-type: none;
-          font-size: 14px;   
-          color: #a0e8ff;
+
+  /*footer estilo */
+      footer{
+        height: 190px;
+          background: #020d2f;
+          color: #FFFFFF;   
       }
-      ul{
-          background-color: #020d2f;
-          padding: 20px;
+  
+.footerlinks {
+  width:auto;
+  float:left;
+  padding: 20px;
+  font-size:16px;
+  line-height:15px;
+  text-align:left; 
+   font-family: League Spartan;
+}
+      h2{
+          font-size: 18px;
       }
+      
+.footerlinks:nth-child(4) {
+  padding-right:0;
+}
+.footerlinks h2 {
+  margin-bottom:20px; 
+    font-family: League Spartan;
+}
+.footerlinks a:visited,.footerlinks a:link{
+  text-decoration:none;
+    color:#ffffff;
+}
+.footerlinks a:hover,.footerlinks a:active{
+  color:aqua;
+}
