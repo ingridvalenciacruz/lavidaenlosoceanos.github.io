@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=League+Spartan:wght@100..900&display=swap');
       /*@media (min-width:480px)*/
       @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
-          *{
+ *{
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+   margin: 0;
+    box-sizing:border-box;
 }
    body {
       margin: 0;
       font-family: Arial, sans-serif;
       color: white;
        background-color: #a0e8ff;
+       height: auto;
       
        }
 
