@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=League+Spartan:wght@100..900&display=swap');
-      /*@media (min-width:480px)*/
-      @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+      
 * {padding: 0;
    margin: 0;}
 
 body
-  {color: white;
+  {
   background-color: #a0e8ff;
   width: 100%;
   height: 100vh;
@@ -55,7 +54,9 @@ header {
         
     }
     
-
+.material-symbols-outlined {
+  display: none;
+}
     section {
     width: 100%;
     height: auto;
@@ -216,4 +217,16 @@ text-align: center;
 }
 .footerlinks a:hover,.footerlinks a:active{
   color:aqua;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+  nav{
+    display: none;
+ }
+ .material-symbols-outlined {
+  display: block;
+ }
+ #text{
+  font-size: 15px;
+ }
 }
