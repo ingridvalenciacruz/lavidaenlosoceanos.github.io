@@ -224,12 +224,10 @@ header {
  }
  .headerprincipal_iconomenu-boton {
   display: block;
-/*background-color: transparent;
-border: 0;*/
 cursor: pointer;
 }
 
-header{
+/*header{
   width: 100%;
   display: flex;
   height: auto;
@@ -238,9 +236,7 @@ header{
 
  #text{
   font-size: 60px;
- }
+ }*/
  
- section{
-  padding: 50px, 15px, 15px,;
- }
+ 
 }
