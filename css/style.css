@@ -39,6 +39,7 @@ header {
     }
 main{
   width: 100%;
+  height: auto;
 }
     nav a {
       margin: 0 15px;
