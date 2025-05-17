@@ -24,6 +24,7 @@ header {
     }
       
     .titulo {
+      width: 100%;
       font-size: 2em; 
       padding: 20px 0 10px;
       font-weight: bold;
@@ -36,7 +37,9 @@ header {
    justify-content: center;
        
     }
-
+main{
+  width: 100%;
+}
     nav a {
       margin: 0 15px;
       text-decoration: none;
@@ -110,6 +113,7 @@ header {
   width: 70%;/*de 80 a 70*/
   object-fit: cover;  /*agregado*/
 }/*agregado */
+
 .container:hover{
           width: 70%;
       }
