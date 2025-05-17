@@ -27,7 +27,7 @@
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     font-family: Cinzel Decorative;
     height: 100vh
-    min-height: 100vh;
+   min-content: 200px;
          
     }
       
