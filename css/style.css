@@ -279,16 +279,32 @@ main{
 
 /*fin del menu desplegable*/
 
-@media only screen and (max-device-width : 480px){
+@media (max-width: 768px) {
+          /* Estilos para dispositivos con pantalla más pequeña (móviles) */
+          .imagen {
+            width: 100%;  /* La imagen ocupa el 100% del ancho del contenedor */
+          }
+          /* ... otros estilos para dispositivos pequeños ... */
+        }
+
+
+/*@media only screen and (max-device-width : 480px){
   nav{
     display: none;
  }
- .menu_des {
+ /*.menu_des {
   display: block;
+}*//*
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none; 
 }
-
 footer{
   width: 100%;
 }
  
-}
+}*/
