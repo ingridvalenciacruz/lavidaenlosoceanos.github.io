@@ -264,14 +264,14 @@ main{
   
 }
 
-.openbtn {
+/*.openbtn {
   font-size: 20px;
   cursor: pointer;
   background-color: green;
   color: white;
   padding: 10px 15px;
   border: none; 
-}
+}*/
 
 .openbtn:hover {
   background-color:blue;
@@ -286,7 +286,14 @@ main{
  .openbtn {
   display: block;
 cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none; 
 }
+
 footer{
   width: 80%;
 }
