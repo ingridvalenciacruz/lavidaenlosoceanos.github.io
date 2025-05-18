@@ -227,7 +227,7 @@ main{
 }
 
 
-/*diseño desplegable*/
+/*diseño desplegable
 .sidepanel  {
   width:0;
   position: fixed;
@@ -277,7 +277,7 @@ main{
   background-color:blue;
 }
 
-/*fin del menu desplegable*/
+fin del menu desplegable*/
 
 @media (max-width: 768px) {
           /* Estilos para dispositivos con pantalla más pequeña (móviles) */
